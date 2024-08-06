@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #ffb6c1; /* Light Pink */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Hot Pink */
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    color: #ff1493; /* Deep Pink */
+}
+
+section {
+    background-color: #ff69b4; /* Hot Pink */
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+footer {
+    background-color: #ff1493; /* Deep Pink */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed; /* Fixes the footer to the bottom of the viewport */
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em; /* Smaller font size */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    nav ul li a {
+        font-size: 1.2em;
+    }
+}
